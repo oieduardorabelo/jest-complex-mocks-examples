@@ -1,8 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import Card from "./Card";
+
+function App() {
+  return (
+    <div>
+      <h1> Hello World! </h1>
+      <Card />
+    </div>
+  );
+}
+
+ReactDOM.render(<App />, document.querySelector("#root"));

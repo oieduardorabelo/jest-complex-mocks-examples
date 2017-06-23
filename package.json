@@ -5,9 +5,13 @@
   "dependencies": {
     "enzyme": "^2.9.0",
     "enzyme-to-json": "^1.5.1",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-test-renderer": "^15.6.1"
+    "react-intl": "^2.3.0",
+    "react-redux": "^5.0.5",
+    "react-test-renderer": "^15.6.1",
+    "redux": "^3.7.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"

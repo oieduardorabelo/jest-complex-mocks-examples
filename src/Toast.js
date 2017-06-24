@@ -7,8 +7,8 @@ function Toast(props) {
   return (
     <div>
       <p>Hello Toast!</p>
-      <p>Hello I18N: {props.intl.formatMessage({ id: "CURRENT_DAY" })}</p>
-      <b>Total: {props.counter}</b>
+      <p>Toast I18N: {props.intl.formatMessage({ id: "CURRENT_DAY" })}</p>
+      <b>Toast Total: {props.counter}</b>
       <button onClick={props.updateCounter}>Update!</button>
     </div>
   );
@@ -33,4 +33,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default injectIntl(connect(mapStateToProps, mapDispatchToProps)(Toast));
+export default connect(mapStateToProps, mapDispatchToProps)(injectIntl(Toast));

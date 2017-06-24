@@ -6,13 +6,13 @@ exports[`renders correctly 1`] = `
     Hello Card!
   </p>
   <p>
-    I18N: 
+    Card I18N: 
     <span>
       Today
     </span>
   </p>
   <button>
-    Testing
+    Card Redux Action
   </button>
 </div>
 `;

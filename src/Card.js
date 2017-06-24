@@ -5,8 +5,8 @@ function Card(props) {
   return (
     <div>
       <p>Hello Card!</p>
-      <p>I18N: <FormattedMessage id="CURRENT_DAY" /></p>
-      <button onClick={props.onClick}>Testing</button>
+      <p>Card I18N: <FormattedMessage id="CURRENT_DAY" /></p>
+      <button onClick={props.onClick}>Card Redux Action</button>
     </div>
   );
 }

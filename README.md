@@ -4,8 +4,9 @@ This repository have basic examples of using Jest mock's functions in complex HO
 
 Here, we're mocking:
 
-- The `connect()` function, from `react-redux`
-- The whole `react-intl` library
+- `react-redux` - Component using `connect()`
+- `react-intl` - Components using `<FormattedMessage />` HOC and `injectIntl`
+- `react-router-dom` - Example of testing components with `withRouter`
 
 Making component test simple and easy again!
 
